@@ -15,20 +15,20 @@ az login
 :skiplogin
 
 set RESOURCEGROUP=BOINCResourceGroup
-set /P RESOURCEGROUP="Enter the resource group name, leave blank to default [BOINCResourceGroup] "
+set /P RESOURCEGROUP="Enter the resource group name, leave blank for default [BOINCResourceGroup] "
 echo @set RESOURCEGROUP=%resourcegroup%>variables.cmd
 
 set SCALESET=BOINCScaleSet
-set /P SCALESET="Enter the scale set name, leave blank to default [BOINCScaleSet] "
+set /P SCALESET="Enter the scale set name, leave blank for default [BOINCScaleSet] "
 echo @set SCALESET=%SCALESET%>>variables.cmd
 
 set SCALESETUSER=boincuser
 echo Enter the scale set user name (only lower case characters)
-set /P SCALESETUSER="Leave blank to default [boincuser] "
+set /P SCALESETUSER="Leave blank for default [boincuser] "
 echo @set SCALESETUSER=%SCALESETUSER%>>variables.cmd
 
 set PROJECTURL=http://www.worldcommunitygrid.org
-echo Enter the BOINC project url, leave blank to default
+echo Enter the BOINC project url, leave blank for default
 set /P PROJECTURL="[http://www.worldcommunitygrid.org] "
 echo @set PROJECTURL=%PROJECTURL%>>variables.cmd
 

@@ -9,6 +9,7 @@ pause
 goto:eof
 )
 call variables.cmd
+echo Creating virtual machines to start BOINC instances.
 echo Please wait a few minutes...
 call az group create -l westus -n %RESOURCEGROUP% > resource-group-create-stdout.txt 2> resource-group-create-stderr.txt
 if ERRORLEVEL 1 (
