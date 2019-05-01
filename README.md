@@ -1,5 +1,6 @@
 # cloud-boinc-client
 BOINC-based Distributed computing in the cloud
+Uses low-priority VMs. Up to an 80 percent discount.
 * Download and install the Azure  CLI: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest
 * Run configure.cmd, enter the required parameters
 * Run cloud-boinc-client.cmd
