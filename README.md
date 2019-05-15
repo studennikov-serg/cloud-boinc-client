@@ -10,3 +10,4 @@ Register the BOINC client account here: https://join.worldcommunitygrid.org?recr
 Or see the required parameters here (for WCG): https://www.worldcommunitygrid.org/ms/viewMyProfile.do
 Computation results: https://www.worldcommunitygrid.org/ms/viewBoincResults.do
 My Facebook group: https://facebook.com/groups/crunching.run
+And my LinkedIn profile: https://www.linkedin.com/in/sergey-studennikov-7b948a184
